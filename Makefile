@@ -1,5 +1,5 @@
 deps:
-	pip install -r requirment.txt; \
+	pip install -r requirments.txt; \
 	pip install -r test_requirments.txt
 run: 
 	python main.py
