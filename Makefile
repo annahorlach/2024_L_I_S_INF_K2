@@ -1,6 +1,6 @@
 deps:
-	pip install -r requirments.txt; \
-	pip install -r test_requirments.txt
+	pip install -r requirements.txt; \
+	pip install -r test_requirements.txt
 run: 
 	python main.py
 .PHONY:test
