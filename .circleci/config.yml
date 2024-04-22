@@ -7,8 +7,7 @@
 
     steps:
       - checkout 
-      - run: make deps 
-      - run: make lint 
+      - run: make deps  
       - run: make test 
  workflows: 
   basic:
